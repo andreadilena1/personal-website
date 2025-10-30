@@ -1,0 +1,16 @@
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/vite-env.d.ts
+frontend/venv/
+
+# Python / Backend
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+
+# Sistema operativo
+.DS_Store
+Thumbs
