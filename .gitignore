@@ -1,16 +1,27 @@
-# Node / React
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/vite-env.d.ts
-frontend/venv/
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Python / Backend
-backend/__pycache__/
-backend/*.pyc
-backend/venv/
-backend/.env
+# Node
+node_modules/
+npm-debug.log
 
-# Sistema operativo
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-Thumbs
+Thumbs.db
