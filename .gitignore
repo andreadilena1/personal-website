@@ -25,3 +25,9 @@ npm-debug.log
 # OS
 .DS_Store
 Thumbs.db
+venv/ 
+venv/ 
+__pycache__/ 
+*.pyc 
+node_modules/ 
+.env 
