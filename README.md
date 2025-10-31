@@ -31,4 +31,4 @@ Questo sito mostra:
 
 ---
 
-Made with ❤️ by Andrea Di Lena
+ Andrea Di Lena
