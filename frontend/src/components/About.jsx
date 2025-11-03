@@ -22,7 +22,7 @@ export default function About() {
           Disponibile il mio CV in formato PDF.
         </p>
         <div>
-          <a href="/CV_AndreaDiLena.pdf" download
+          <a href="/personal-website/CV_AndreaDiLena.pdf" download
             className="inline-block mt-1 ml-6 bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition">
             Download
           </a>
