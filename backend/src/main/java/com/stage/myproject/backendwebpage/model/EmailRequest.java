@@ -1,5 +1,5 @@
 package com.stage.myproject.backendwebpage.model;
-
+/*
 import lombok.Data;
 
 
@@ -44,3 +44,5 @@ public class EmailRequest {
     }
 
 }
+
+ */
