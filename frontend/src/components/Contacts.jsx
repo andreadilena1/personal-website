@@ -178,8 +178,7 @@ export default function Contacts() {
         <div>
           <label
             htmlFor="name"
-            className="block text-sm font-medium text-gray-700"
-          >
+            className="block text-sm font-medium text-gray-700">
             Nome *
           </label>
           <input
@@ -191,7 +190,7 @@ export default function Contacts() {
             onChange={handleChange}
             disabled={isLoading}
             className={clsx(
-              "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100",
+              "mt-1 block w-full rounded-md border-gray-300 shadow-sm px-2 py-1 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100",
               formErrors.name && "border-red-500"
             )}
             placeholder="Il tuo nome"
@@ -217,7 +216,7 @@ export default function Contacts() {
             onChange={handleChange}
             disabled={isLoading}
             className={clsx(
-              "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100",
+              "mt-1 block w-full rounded-md border-gray-300 shadow-sm px-2 py-1 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100",
               formErrors.email && "border-red-500"
             )}
             placeholder="esempio@email.com"
@@ -241,7 +240,7 @@ export default function Contacts() {
             value={form.message}
             onChange={handleChange}
             disabled={isLoading}
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100"
+            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm px-2 py-1 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100"
             placeholder="Scrivi un messaggio (opzionale)"/>
         </div>
 
