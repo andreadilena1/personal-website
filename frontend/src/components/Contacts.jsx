@@ -80,7 +80,7 @@ export default function Contacts() {
       };
 
       // Chiamata al backend per inviare l'email
-      const response = await fetch("https://personal-website-pgmz.onrender.com/api/email", {//"http://localhost:8080/api/email", {
+      const response = await fetch("http://localhost:8080/api/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

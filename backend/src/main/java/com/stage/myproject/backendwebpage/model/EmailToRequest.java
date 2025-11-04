@@ -1,6 +1,6 @@
 package com.stage.myproject.backendwebpage.model;
 
-
+/*
 public class EmailToRequest {
     private String to;
     private String subject;
@@ -32,3 +32,4 @@ public class EmailToRequest {
     }
 
 }
+*/
