@@ -57,7 +57,7 @@ export default function Navbar() {
       {/* Menu */}
 
       {/* Menu per dispositivi sopra i 640px */}
-      <ul className={`${ isMenuOpen ? "flex flex-col gap-4" : "hidden" } sm:flex gap-4 text-gray-700 font-medium`}>      
+      <ul className={`${ isMenuOpen ? "flex flex-col gap-4 transition-all duration-300 ease-in-out" : "hidden"} sm:flex gap-4 text-gray-700 font-medium`}>      
         <li>
           <Link
             to="home"
