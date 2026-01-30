@@ -26,8 +26,8 @@ Questo sito mostra:
 
 ## 🚀 Deployment
 
-- Frontend live: *(aggiungi qui il link se deployi su Netlify, Vercel, ecc.)*  
-- Backend live: *(aggiungi qui il link se deployi su Render, Railway, ecc.)*
+- Frontend live:   
+- Backend live: 
 
 ---
 
